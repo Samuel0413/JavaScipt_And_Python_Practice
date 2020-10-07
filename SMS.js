@@ -21,9 +21,8 @@ client.messages
   })
   .then(message => {
     console.log(
-      'Signed, sealed, and delivered! Copy this SID and enter it to the right:'
+      'Message is sent successfully!!'
     );
-    console.log(`${message.sid}`);
   })
   .catch(error => {
     console.error('Looks like the Twilio API returned an error:');
