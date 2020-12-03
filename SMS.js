@@ -23,6 +23,8 @@ client.messages
     console.log(
       'Message is sent successfully!!'
     );
+    console.log('Woohoo! Copy this message SID into the hacking UI:');
+  	console.log(`${message.sid}`);
   })
   .catch(error => {
     console.error('Looks like the Twilio API returned an error:');
